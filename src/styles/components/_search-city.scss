@@ -1,0 +1,27 @@
+
+.search-city-error {
+	color: $dark-grey;
+	font-style: italic;
+	padding: 0 $m-size;
+}
+
+.search-city {
+	display: flex;
+	flex-direction: row;
+	min-width: 30rem;
+}
+
+.search-city__input {
+	background: darken(white, 5%);
+	border: 0.1rem solid #a7a7a7;
+	border-radius: 2px;
+	color: darken($dark-grey, 15%);
+	flex-grow: 1;
+	padding: $s-size;
+	font-size: 18px;
+	text-align: center;
+	&:focus {
+		outline: none;
+	}
+}
+

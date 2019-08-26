@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5% ; //1 rem =  16px. So, 62.5% of 16px = 10px
+	background: #FFEFBA;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+body {
+	font-family: 'Helevetica', 'Arial', 'sans-serif';
+	font-size: $m-size;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+

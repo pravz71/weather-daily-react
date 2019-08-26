@@ -1,0 +1,12 @@
+.header {
+	color: black;
+	padding: $s-size 0;
+}
+
+.header__title {
+	font-size: $xl-size;
+	margin: 0;
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: 4px;
+}

@@ -1,6 +1,6 @@
 const key = process.env.ACCUWEATHER_API_KEY;
 const getWeatherUpdateByCityId = async (id) => {
-  const base = 'http://dataservice.accuweather.com/currentconditions/v1/';
+  const base = 'https://dataservice.accuweather.com/currentconditions/v1/';
   const query = `${id}?apikey=${key}`;
   const response = await fetch(base + query);
   const data = await response.json();
@@ -8,7 +8,7 @@ const getWeatherUpdateByCityId = async (id) => {
 };
 
 const getCityDetails = async (city) => {
-  const base = 'http://dataservice.accuweather.com/locations/v1/cities/search';
+  const base = 'https://dataservice.accuweather.com/locations/v1/cities/search';
   const query = `?apikey=${key}&q=${city}`;
   const response = await fetch(base + query);
   const data = await response.json();

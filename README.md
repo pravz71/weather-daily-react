@@ -1,6 +1,7 @@
 ## weather-daily-react
 A weather app that lets you know the current weather of any city using a call to the AccuWeather APIs namely Location API and Current Conditions API.
 Technologies Used: React, Redux,Node.js, Express, Redux, SCSS, HTML
+
 Deployed on Heroku: https://weather-daily-pravin.herokuapp.com/
 
 
